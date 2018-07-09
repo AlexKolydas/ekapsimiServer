@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.alex.e_kapsimiserver"
+        applicationId "ekapsimifinal.server.alex.e_kapsimiserver"
         minSdkVersion 17
         targetSdkVersion 26
         versionCode 1
@@ -11,6 +11,9 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled true
+    }
+    lintOptions {
+        checkReleaseBuilds false
     }
     buildTypes {
         release {

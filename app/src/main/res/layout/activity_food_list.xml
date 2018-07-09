@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/rootLayout"
-    tools:context=".FoodList">
+    tools:context="ekapsimifinal.server.alex.e_kapsimiserver.FoodList">
 
 
         <android.support.v7.widget.RecyclerView
@@ -23,8 +23,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
             android:layout_margin="@dimen/fab_margin"
-            app:backgroundTint="@android:color/white"
-            app:srcCompat="@drawable/ic_shopping_cart_black_24dp" />
+            android:backgroundTint="@android:color/white"
+            app:srcCompat="@drawable/ic_playlist_add_black_24dp" />
 
 
 </RelativeLayout>
