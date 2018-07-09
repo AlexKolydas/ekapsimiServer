@@ -1,0 +1,180 @@
+{
+  "Category" : {
+    "01" : {
+      "image" : "http://www.caremarket.gr/content/images/thumbs/0080826_7days-krouasan-hazelnut-max-pralina-fountoukiou-150gr.jpeg",
+      "name" : "ΓΛΥΚΑ"
+    },
+    "02" : {
+      "image" : "https://firebasestorage.googleapis.com/v0/b/e-kapsimi.appspot.com/o/images%2Fcfec74c0-8464-4aaa-b6cf-35821651405e?alt=media&token=3d16e5b0-f061-4123-a958-c960857ee42f",
+      "name" : "ΝΕΡΟ"
+    },
+    "03" : {
+      "image" : "http://espressadiko.gr/wp-content/uploads/2016/09/tassimo.jpg",
+      "name" : "ΚΑΦΕΣ"
+    },
+    "04" : {
+      "image" : "https://www.zarpanews.gr/wp-content/uploads/2016/07/tost.jpg",
+      "name" : "ΦΑΓΗΤΟ"
+    }
+  },
+  "Food" : {
+    "01" : {
+      "description" : "",
+      "discount" : "0",
+      "image" : "http://www.caremarket.gr/content/images/thumbs/0080826_7days-krouasan-hazelnut-max-pralina-fountoukiou-150gr.jpeg",
+      "menuId" : "01",
+      "name" : "Κρουασάν",
+      "price" : "0.50"
+    },
+    "02" : {
+      "description" : "",
+      "discount" : "0",
+      "image" : "https://i5.walmartimages.com/asr/324ff536-aeb9-4e14-bad4-59c230523e21_1.81fa866b27d2480b10664b1b453ae56e.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+      "menuId" : "01",
+      "name" : "Μπισκότα",
+      "price" : "1"
+    },
+    "03" : {
+      "description" : "",
+      "discount" : "0",
+      "image" : "http://www.imperialwater.gr/img/product/image/vikos_0_5_l_clear-0.jpg",
+      "menuId" : "02",
+      "name" : "Νερό 0,5ml",
+      "price" : "0.15"
+    },
+    "04" : {
+      "description" : "",
+      "discount" : "0",
+      "image" : "http://www.menufesto.gr/media/cache/9d/ae/9daeb166176d34f58ab5d354e1de2f6d.jpg",
+      "menuId" : "03",
+      "name" : "Freddo Espresso",
+      "price" : "0.70"
+    },
+    "05" : {
+      "description" : "",
+      "discount" : "0",
+      "image" : "http://www.inkefalonia.gr/images/stories/2015/09/DSC_0107_-_%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF.jpg",
+      "menuId" : "03",
+      "name" : "Freddo Capuccino",
+      "price" : "0.70"
+    },
+    "06" : {
+      "description" : "",
+      "discount" : "0",
+      "image" : "https://cookingwithawallflower.com/wp-content/uploads/2015/03/Tomato-Basil-Grilled-Cheese-Sandwich-1.jpg",
+      "menuId" : "04",
+      "name" : "Τοστ",
+      "price" : "0.70"
+    },
+    "07" : {
+      "description" : "",
+      "discount" : "0",
+      "image" : "https://static.pourfemme.it/pp/850x480/ricette/pourfemme/it/img/hotdog.jpg",
+      "menuId" : "04",
+      "name" : "Hot Dog",
+      "price" : "1"
+    }
+  },
+  "Requests" : {
+    "1528702675238" : {
+      "foods" : [ {
+        "discount" : "0",
+        "price" : "0.50",
+        "productId" : "01",
+        "productName" : "Κρουασάν",
+        "quantity" : "1"
+      } ],
+      "name" : "Kolydas",
+      "phone" : "6980162585",
+      "status" : "0",
+      "surname" : "",
+      "total" : "€0.50"
+    },
+    "1528703676930" : {
+      "foods" : [ {
+        "discount" : "0",
+        "price" : "0.70",
+        "productId" : "04",
+        "productName" : "Freddo Espresso",
+        "quantity" : "1"
+      } ],
+      "name" : "Kolydas",
+      "phone" : "6980162585",
+      "status" : "0",
+      "surname" : "testsurname",
+      "total" : "€0.70"
+    },
+    "1528749346165" : {
+      "foods" : [ {
+        "discount" : "0",
+        "price" : "0.50",
+        "productId" : "01",
+        "productName" : "Κρουασάν",
+        "quantity" : "1"
+      }, {
+        "discount" : "0",
+        "price" : "0.70",
+        "productId" : "04",
+        "productName" : "Freddo Espresso",
+        "quantity" : "3"
+      }, {
+        "discount" : "0",
+        "price" : "0.70",
+        "productId" : "04",
+        "productName" : "Freddo Espresso",
+        "quantity" : "2"
+      } ],
+      "name" : "Kolydas",
+      "phone" : "6980162585",
+      "surname" : "γιω",
+      "total" : "€4.00"
+    }
+  },
+  "user" : {
+    "56282156" : {
+      "isStaff" : "false",
+      "name" : "Kolydas1",
+      "password" : "alex"
+    },
+    "6900000001" : {
+      "isStaff" : "false",
+      "name" : "potato",
+      "password" : "1234"
+    },
+    "6955546421" : {
+      "isStaff" : "false",
+      "name" : "Perez",
+      "password" : "12345"
+    },
+    "6980162584" : {
+      "isStaff" : "false",
+      "name" : "Kolydasm",
+      "password" : "1234"
+    },
+    "6980162585" : {
+      "isStaff" : "true",
+      "name" : "Kolydas",
+      "password" : "alex"
+    },
+    "69801625856" : {
+      "isStaff" : "false",
+      "name" : "kostas",
+      "password" : "alex"
+    },
+    "6980162586" : {
+      "isStaff" : "false",
+      "name" : "Kolidas",
+      "password" : "alex"
+    },
+    "6986986986" : {
+      "isStaff" : "false",
+      "name" : "Kolydazzz",
+      "password" : "alex"
+    },
+    "6987244075" : {
+      "isStaff" : "false",
+      "name" : "Λιλ",
+      "password" : "12345"
+    }
+  }
+}
